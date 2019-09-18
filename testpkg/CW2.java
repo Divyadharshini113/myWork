@@ -2,7 +2,7 @@ package testpkg;
 
 import org.testng.annotations.Test;
 
-public class CW2 {
+public class Reverse {
 
 	String comp= "This is the world";
 	String rev="";
