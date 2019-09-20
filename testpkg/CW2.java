@@ -21,7 +21,16 @@ public class Reverse {
 		String comp1= "This is the world";
 		
 		StringBuffer b= new StringBuffer(comp1);
-		System.out.println(b.reverse());
+		String output= b.reverse();
+		char[] charArr = str.toCharArray();
+
+		for(int i=0; i< str.length(); i++) {
+			for(int j= i+1; j<str.length(); j++) {
+				if (charArr[i] == charArr[j])
+				{
+					System.out.println(charArr[j]);
+				}
+
 		
 	
 		
